@@ -10,12 +10,26 @@ google_sheets:
 
 # FTSE 100 stocks or custom list
 uk_stocks:
-  - "AAPL.L"   # Example format for London Stock Exchange
-  - "BARC.L"   # Barclays
-  - "BP.L"     # BP
-  - "BT-A.L"   # BT Group
-  - "LLOY.L"   # Lloyds
-  # Add more UK stock tickers
+  - "BARC.L"    # Barclays
+  - "BP.L"      # BP
+  - "BT-A.L"    # BT Group  
+  - "LLOY.L"    # Lloyds Banking Group
+  - "HSBA.L"    # HSBC Holdings
+  - "VOD.L"     # Vodafone Group
+  - "RIO.L"     # Rio Tinto
+  - "SHEL.L"    # Shell
+  - "AZN.L"     # AstraZeneca
+  - "ULVR.L"    # Unilever
+  - "GSK.L"     # GSK
+  - "DGE.L"     # Diageo
+  - "NG.L"      # National Grid
+  - "REL.L"     # RELX
+  - "LSEG.L"    # London Stock Exchange Group
+  - "NWG.L"     # NatWest Group
+  - "STAN.L"    # Standard Chartered
+  - "PRU.L"     # Prudential
+  - "IAG.L"     # International Airlines Group
+  - "GLEN.L"    # Glencore
 
 analysis_parameters:
   lookback_days: 30
