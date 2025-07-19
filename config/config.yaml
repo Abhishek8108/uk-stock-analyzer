@@ -1,0 +1,31 @@
+# config/config.yaml
+api_keys:
+  groq_api_key: "${GROQ_API_KEY}"
+  news_api_key: "${NEWS_API_KEY}"  # Get from newsapi.org
+  alpha_vantage_key: "${ALPHA_VANTAGE_KEY}"  # Optional: for more data
+
+google_sheets:
+  spreadsheet_id: "${GOOGLE_SHEET_ID}"
+  worksheet_name: "Daily_Stock_Picks"
+
+# FTSE 100 stocks or custom list
+uk_stocks:
+  - "AAPL.L"   # Example format for London Stock Exchange
+  - "BARC.L"   # Barclays
+  - "BP.L"     # BP
+  - "BT-A.L"   # BT Group
+  - "LLOY.L"   # Lloyds
+  # Add more UK stock tickers
+
+analysis_parameters:
+  lookback_days: 30
+  technical_indicators:
+    - "RSI"
+    - "MACD"
+    - "Moving_Averages"
+    - "Volume"
+    - "Bollinger_Bands"
+  
+  sentiment_sources:
+    - "news"
+    - "social_media"
